@@ -1,4 +1,7 @@
-
+public class TaikoSongNameSplitUtils{
+	
+	public void utils(){
+		
 		String test = "続・〆ドレー2000 5 7 8 10 -";
 		String[] temp = {};
 		String test2 = "憎悪と醜悪の花束 NEW! SECRET! t+pazolite 5 7 8 10 10";
@@ -35,3 +38,7 @@
 		System.out.println("reverse!!!!" + difficult);
 		System.out.println("test2===>"
 				+ test2.replace(difficult, "").replace("NEW!", "").replace("-", "").replace("SECRET!", "").trim());
+		
+	}
+}
+		
